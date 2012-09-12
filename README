@@ -1,0 +1,13 @@
+Fast JPEG Thumbnail generator.
+Benoit Favre <benoit.favre@lif.univ-mrs.fr>
+
+USAGE: ./jpeg-thumbnail <infile> <outfile> <maxdim>
+
+Requires libjpeg. It only decodes a scaled-down version
+of the image before resizing it to the required size.
+
+It works relativelly fast on non accelerated low-end arm devices.
+
+To compile, install libjpeg development files and type:
+
+make
